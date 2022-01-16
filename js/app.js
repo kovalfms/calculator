@@ -35,5 +35,5 @@ document.addEventListener('keydown', (e) => {
         case "Enter":
             display.textContent = eval(display.textContent);
             break;
-    }
+    } 
 });
