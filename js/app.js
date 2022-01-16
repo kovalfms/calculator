@@ -22,8 +22,6 @@ calc.addEventListener('click', (e) => {
     }
 })
 
-// (13 - enter,96-111)    48-57, 189(-), 187(+)
-
 document.addEventListener('keydown', (e) => {
         if((e.keyCode >= 48 && e.keyCode <= 57) || (e.keyCode >= 96 && e.keyCode <= 111)){
             display.innerHTML += e.key;
@@ -35,5 +33,5 @@ document.addEventListener('keydown', (e) => {
         case "Enter":
             display.textContent = eval(display.textContent);
             break;
-    } 
+    }
 });
